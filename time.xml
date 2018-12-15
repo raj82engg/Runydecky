@@ -1,6 +1,19 @@
-echo "# Runydecky" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:raj82engg/Runydecky.git
-git push -u origin master
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>Variables</group>
+    <id>9869961a-7543-4881-bf8d-b4a2ec29c46e</id>
+    <loglevel>INFO</loglevel>
+    <name>Time</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>date</exec>
+      </command>
+    </sequence>
+    <uuid>9869961a-7543-4881-bf8d-b4a2ec29c46e</uuid>
+  </job>
+</joblist>
